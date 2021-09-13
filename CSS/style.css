@@ -34,7 +34,7 @@ main {
     font-size: 12px;;
 }
 
-a {
+.author > a {
     color: #4EC5F1;
     text-decoration: none;
 }
@@ -43,3 +43,19 @@ a {
     font-size: 10px;;
 }
 
+#pics {
+    margin-top: 15px;
+}
+
+.captions {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+mark {
+    background-color: rgba(238, 255, 46, 0.6);
+}
