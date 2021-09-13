@@ -52,10 +52,35 @@ main {
     font-weight: bold;
 }
 
-.content {
+.content, #lista, table {
     margin-top: 15px;
 }
 
 mark {
     background-color: rgba(238, 255, 46, 0.6);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width:25%;
+}
+
+.col-double {
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    background-color: #0061e0;
+    color: white;
+    
+    height: 30px;
+}
+
+.td-azure {
+    background-color: #00aec2;
 }
