@@ -2,6 +2,11 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h5 {
+    font-family: 'Lora', serif;
 }
 
 body {
@@ -85,7 +90,6 @@ th {
     text-align: left;
     background-color: #0061e0;
     color: white;
-    
     height: 30px;
 }
 
