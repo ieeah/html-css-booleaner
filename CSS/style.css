@@ -7,7 +7,6 @@
 .container {
     width: 60%;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 
 header {
@@ -52,10 +51,13 @@ main {
     font-weight: bold;
 }
 
-.content, #lista, table {
+#lista, table, p, .rel-item, .related {
     margin-top: 15px;
 }
 
+#lista {
+    margin-left: 20px;
+}
 mark {
     background-color: rgba(238, 255, 46, 0.6);
 }
@@ -83,4 +85,21 @@ th {
 
 .td-azure {
     background-color: #00aec2;
+}
+
+.rel-item {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 12px;
+}
+
+#rel-one {
+    background-image: url('../img/monitor.jpg');
+}
+
+#rel-two {
+    background-image: url('../img/graph.jpg');
 }
